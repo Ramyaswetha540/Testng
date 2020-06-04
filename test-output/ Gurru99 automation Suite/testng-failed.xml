@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Gurru99 automation Suite]">
+  <test thread-count="5" name=" Parameterized Test(failed)">
+    <parameter name="password" value="dAnavUq"/>
+    <parameter name="url" value="http://www.demo.guru99.com/V4/"/>
+    <parameter name="username" value="mngr1336"/>
+    <classes>
+      <class name="parameters.ParameterPassing">
+        <methods>
+          <include name="setUp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- parameters.ParameterPassing -->
+    </classes>
+  </test> <!--  Parameterized Test(failed) -->
+</suite> <!-- Failed suite [ Gurru99 automation Suite] -->
